@@ -1,0 +1,35 @@
+.header{
+    padding:0;
+    margin:-10px 0 0 0;
+}
+
+.header p{
+    padding-top: 12px;
+    padding-right:80px;
+    float: right;
+    color: #fff;
+    font-size: 15px;
+}
+
+#body{
+    margin: 0 50px 0 50px;
+    padding:10px 0 40px 0;
+    background-color: rgb(241, 240, 240);
+    height: auto;
+}
+.body-info{
+    width: 65%;
+    margin: 0 auto;
+    border: 0.5px solid rgb(194, 176, 176);
+    box-shadow: 1px 1px 0.5px 0.5px rgb(194, 176, 176);
+    background-color: #fff;
+}
+
+.image{
+    position: relative;
+    height: 250px;
+}
+
+.infomation{
+    padding-top: 10px;
+}
