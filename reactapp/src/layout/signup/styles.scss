@@ -1,0 +1,50 @@
+
+#page-signup{
+    margin: 5%;
+    border: 1px solid gray;
+    height: 514px;
+}
+
+.signup-content{
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    height: 100%;
+}
+
+
+#sig-left {
+    margin: 0;
+    padding: 0;
+    height: 512px;
+}
+
+#sig-right{
+    height: 90%;
+    margin: 0 auto;;
+}
+
+#input-text{
+    color:  rgb(143, 162, 180);
+}
+
+
+@media screen and (max-width: 600px)
+{
+
+    .signup-content{
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #footer{
+        visibility: visible;
+        color: gray;
+        float: bottom;
+    }
+
+
+}
+
+

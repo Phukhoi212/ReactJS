@@ -1,0 +1,33 @@
+.form-info{
+    height: 300px;
+}
+
+
+
+.info p{
+    font-weight: bold;
+    padding-top:20px;
+    text-align: left;
+}
+
+#colums{
+    height: auto;
+    padding: 0 20px 0 20px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: solid 1px gray;
+
+}
+
+button{
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(204, 19, 19);
+    color: #fff;
+    height: 35px;
+}
