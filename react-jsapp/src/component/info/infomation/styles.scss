@@ -1,0 +1,72 @@
+.form-info{
+    height: 300px;
+}
+
+
+
+.info p{
+    font-weight: bold;
+    padding-top:20px;
+    text-align: left;
+}
+
+#colums{
+    height: auto;
+    padding: 0 20px 0 20px;
+}
+
+.info input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: solid 1px gray;
+    color: red;
+}
+
+button{
+    margin-top: 15px;
+    margin-right: 20px;
+    float: right;
+    background-color: rgb(204, 19, 19);
+    color: #fff;
+    height: 35px;
+}
+
+@media screen and (max-width: 884px){
+    .form-info{
+        display: inline-block;
+        width: 1005;
+    }
+
+    .info{
+        margin-bottom: 2em;
+    }
+
+
+    #bt-change{
+        text-align: center;
+        display: inline-block;
+        margin-bottom: 3em;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .form-info{
+        display: inline-block;
+    }
+
+    .info{
+        margin-bottom: 2em;
+    }
+    #bt-change{
+        padding: 0 auto;
+    }
+
+    #change-info{
+        margin: 0 auto;
+    }
+
+
+
+}

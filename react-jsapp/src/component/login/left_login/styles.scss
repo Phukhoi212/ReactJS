@@ -1,0 +1,84 @@
+.left_menu{
+    background: url('../../../images/background.jpg');
+    width: 100%;
+    height: 100vh;
+}
+
+.logo_left{
+    text-align: center;
+    padding-top: 180px;
+}
+
+.logo_left p{
+    padding-top: 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#logo{
+
+    width: 300px;
+    height: 80px;
+}
+
+#copyright{
+    text-align: center;
+    padding-top: 150px;
+}
+
+#copyright p{
+    margin-top:  40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 600px){
+    #copyright{
+        visibility: hidden;
+    }
+
+    #logo{
+        width:50%;
+        height: 80%;
+        padding: 0 auto;
+        margin-top: -3em;
+    }
+
+    .left_menu{
+        height: 100%;
+    }
+
+
+    .logo_left{
+        text-align: center;
+        padding:0 auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+
+    #copyright{
+        visibility: hidden;
+    }
+
+    #logo{
+        margin-top: 4em;
+        width:65%;
+        height: 25%;
+        padding: 0 auto;
+    }
+
+    .left_menu{
+        height: 100%;
+        padding: 0 auto;
+    }
+
+
+    .logo_left{
+        text-align: center;
+        display: inline;
+    }
+
+}

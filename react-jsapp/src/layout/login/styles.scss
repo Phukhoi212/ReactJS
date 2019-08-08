@@ -1,0 +1,74 @@
+#page-login{
+    margin: 0 auto;
+    height: 650px;
+    position: relative;
+}
+.body-content{
+    margin: 0 auto;
+    position: relative;
+    display: inline;
+}
+
+
+#left{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#footer{
+    visibility: hidden;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 750px)
+{
+    #left{
+        height: 40%;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+
+    .body-content{
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #footer{
+        visibility: visible;
+        color: gray;
+        float: bottom;
+    }
+
+    #left{
+        height: 40%;
+    }
+
+
+}
+
+@media screen and (max-width: 400px)
+{
+    .body-content{
+        height: auto;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #footer{
+        visibility: visible;
+        color: gray;
+        float: bottom;
+    }
+
+    #left{
+        height: 30%;
+    }
+}
+
+

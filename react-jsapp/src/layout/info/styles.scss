@@ -1,0 +1,61 @@
+.header{
+    padding:0;
+    margin:-10px 0 0 0;
+}
+
+
+.menu-info{
+    float: right;
+}
+.text-header{
+    padding-top: 12px;
+    padding-right:80px;
+    color: #fff;
+    font-size: 15px;
+}
+
+#body{
+    margin: 0;
+    padding:10px 0 40px 0;
+    background-color: rgb(241, 240, 240);
+    height: auto;
+}
+.body-info{
+    width: 65%;
+    margin: 0 auto;
+    border: 0.5px solid rgb(194, 176, 176);
+    box-shadow: 1px 1px 0.5px 0.5px rgb(194, 176, 176);
+    background-color: #fff;
+}
+
+.image{
+    position: relative;
+    height: 250px;
+}
+
+.infomation{
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 420px){
+    #body{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .body-info{
+        width: 80%;
+    }
+
+    .infomation{
+        width: 100%;
+    }
+
+    .text-header{
+        margin-top: 0.5em;
+        padding-right:1em;
+        color: #fff;
+        font-size: 15px;
+    }
+
+}

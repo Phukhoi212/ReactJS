@@ -1,0 +1,20 @@
+.footer-content{
+    height: 50px;
+    background-color: rgb(69, 158, 128);
+    text-align: left;
+    margin: 0;
+}
+
+.footer-content p{
+    padding-left: 15px;
+    color: #fff;
+    padding-top: 15px;
+}
+
+
+@media screen and (max-width: 420px){
+    .footer-content{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
